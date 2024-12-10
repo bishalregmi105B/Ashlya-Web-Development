@@ -1,0 +1,12 @@
+# for Id
+
+. for CLass
+
+div{
+
+}  /DIrrect tag name for whole tags
+
+id      Name        CLass
+1      Bishal       twelve
+2      Aashik       twelve
+3      Hari         ten

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal And External CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* # for id and . for class and direct tag name for tags */
+        .internal > p{
+            color: white;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="inline">
+        <h2>I AM INline CSS</h2>
+        <p style="color:white; background-color: green;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis odit animi asperiores pariatur nemo aliquam laboriosam facilis at mollitia id, ipsa explicabo dolorem culpa similique illo repellendus laudantium temporibus.</p>
+
+        
+    </div>
+
+    <div class="internal">
+        <h2>I AM Internal CSS</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis odit animi asperiores pariatur nemo aliquam laboriosam facilis at mollitia id, ipsa explicabo dolorem culpa similique illo repellendus laudantium temporibus.</p>
+
+        
+    </div>
+    <div class="external">
+        <h2>I AM External CSS</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis odit animi asperiores pariatur nemo aliquam laboriosam facilis at mollitia id, ipsa explicabo dolorem culpa similique illo repellendus laudantium temporibus.</p>
+
+        
+    </div>
+</body>
+</html>
