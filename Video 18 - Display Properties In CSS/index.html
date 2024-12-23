@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties In CSS</title>
+    <style>
+        .bi {
+            /* display: inline-block; */
+            display: grid;
+            margin: 100px;
+            width: 100px;
+            padding: 100px;
+            background-color: red;
+        }
+
+        span {
+            display: block;
+            margin: 10px;
+            background-color: aqua;
+        }
+
+        .cntr {
+            background-color: aquamarine;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            width: 100px;
+            display: flex;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cntr">
+        I am Center Tag
+    </div>
+    <div class="bi">
+        Hello world
+    </div>
+    <div class="bi">
+        Hello world
+    </div>
+    <div class="bi">
+        Hello world
+    </div>
+    <div class="bi">
+        Hello world
+    </div>
+    <!-- <span>I am Inline</span>
+    <span>I am Inline</span>
+    <span>I am Inline</span>
+    <span>I am Inline</span> -->
+</body>
+
+</html>

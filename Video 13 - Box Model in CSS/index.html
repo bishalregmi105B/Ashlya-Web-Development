@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model In CSS</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+        
+            place-items: center;
+        }
+        .bxi{
+            margin: 50px;
+            width: 100%;
+            place-content: center;
+            border: 10px solid  green;
+            box-sizing: border-box;
+            place-items: center;
+            background-color: red;
+        }
+
+        .bxii{
+            margin: 100px;
+            width: 100%;
+       
+            border: 10px solid  red;
+            place-content: center;
+            place-items: center;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="bxi">
+        <h1>Content</h1>
+
+    </div>
+    <div class="bxii">
+        <h1>2nd Box</h1>
+
+    </div>
+</body>
+</html>
